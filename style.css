@@ -117,6 +117,8 @@ p {
     padding: 0.4rem;
     border-radius: 3px;
     max-width: 700px;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -215,7 +217,7 @@ hr {
     .grid-container {
         grid-template-columns: 1fr;
         gap: 2rem;
-        padding: 2em 1.5em 0 1.5rem;
+        padding: 2em 0 0 0;
     }
 
     .rail {
@@ -241,7 +243,7 @@ hr {
 
 @media (max-width: 480px) {
     .grid-container {
-        padding: 1.5em 1em 0 1rem;
+        padding: 1.5em 0 0 0;
     }
 
     h1 {
