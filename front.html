@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Portfolio of Yulian Zhu-Yu. Hoping to become the second greatest programmer on earth." />
+    <title>Yulian Zhu-Yu</title>
+    <link rel="icon" type="image/webp" href="./assets/favicon.webp">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body class="container">
+
+    <div class="grid-container">
+        <div>
+            <h1>Yulian Zhu-Yu</h1>
+            <p>I'm a first year at UTM (University of Toronto Mississauga) for
+                CS and Math. Some topics I have been more interested in are Robotics, Computer Vision, and
+                Cybersecurity. Check out some of the projects I've worked on.
+                <a
+                    href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#121;&#117;&#108;&#105;&#97;&#110;&#46;&#120;&#99;&#46;&#122;&#104;&#117;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#83;&#101;&#110;&#100;&#32;&#109;&#101;&#32;&#97;&#110;&#32;&#101;&#109;&#97;&#105;&#108;&#33;</a>
+            </p>
+            <div class="profile-card">
+                <img class="profile-picture" src="assets/me_pfp.webp" alt="Yulian Zhu-Yu" width="340px" height="340px">
+            </div>
+        </div>
+        <div>
+            <h2>What I've been working on</h2>
+            <div class="boxed opened">
+                <h2 class="boxed-title">UTM Robotics Club</h2>
+                <div class="boxed-hidden">
+                    <div class="boxed-content">
+                        <p>In progress...
+                            If you're at UTM, please come by and check us out!
+                        </p>
+                        <img class="boxed-pictures" src="assets/robotics-lab.webp" alt="Picture of the hacklab and Rviz"
+                            width="400px" height="300px">
+                    </div>
+                </div>
+            </div>
+            <div class="boxed">
+                <h2 class="boxed-title">Solarbotics</h2>
+                <div class="boxed-hidden">
+                    <div class="boxed-content">
+                        <p>In Summer of 2025, I was lucky enough to work with Dave at <a
+                                href="https://www.solarbotics.com">Solarbotics</a>!
+                            I learnt a lot about websites, servers, and Linux. They sell kits, motors, and tools. If
+                            you ever need electronic parts,
+                            check them out!
+                        </p>
+
+                        <figure>
+                            <img class="boxed-pictures" src="assets/solarbotics.webp"
+                                alt="Desk where I worked over the summer" width="500px" height="400px">
+                            <figcaption>Many hours spent here</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="boxed">
+                <h2 class="boxed-title">High School Robotics</h2>
+                <div class="boxed-hidden">
+                    <div class="boxed-content">
+                        <p>Back in high school I was on the robotics team for Vex robotics. I loved working with my
+                            friends to build something cool and win tournaments. </p>
+
+                        <figure>
+                            <img class="boxed-pictures" src="assets/provs.webp" alt="Winning Alberta Provincials!"
+                                width="500px" height="400px">
+                            <figcaption>109 to 100 for the Blue Alliance!</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <h1>Links</h1>
+            <div class="links-lists">
+                <a href="https://www.linkedin.com/in/yulian-zhu-yu/" target="_blank"
+                    rel="noopener noreferrer">linkedin</a>
+                <a href="https://github.com/Jakeiscake2" target="_blank" rel="noopener noreferrer">github</a>
+                <a href="http://192.168.1.254/">router</a>
+                <a href="resume.html">resume</a>
+            </div>
+        </div>
+    </div>
+    <div class="divider">
+        <hr>
+    </div>
+
+    <h2>My Projects</h2>
+    <div class="rail">
+        <div>
+            <div class="rail-item is-active" data-target="content-a">VSLAM</div>
+            <div class="rail-item" data-target="content-b">Robotics</div>
+            <div class="rail-item" data-target="content-c">Better Tester</div>
+            <div class="rail-item" data-target="content-d">Slime Game</div>
+        </div>
+
+        <div class="rail-display">
+            <div id="content-a" class="rail-block is-visible">
+                <div class="rail-box">
+                    <h2 class="rail-title">VSLAM on a Roomba</h2>
+                    <p>Developing a self driving robot using a RGBD camera, a raspberry pi, and a Kobuki Base. Full
+                        tech stack involves ROS2 and multiple ROS packages. Used Foxglove, Rviz, and Nav. Full code
+                        is available on my Github.</p>
+                    <img class="boxed-pictures" src="assets/robotics-lab.webp" alt="Picture of the hacklab and Rviz"
+                        width="700px" height="530px">
+                </div>
+            </div>
+            <div id="content-b" class="rail-block">
+                <div class="rail-box">
+                    <h2 class="rail-title">High School Robotics</h2>
+                    <p>I had many hats during our 3 seasons. I worked on mechanical, design, and programming. Below
+                        is a picture of our robot. The code is on my github.</p>
+                    <a href="https://github.com/Jakeiscake2/from-milk" target="_blank" rel="noopener noreferrer">final
+                        code</a>
+
+                    <figure>
+                        <img class="boxed-pictures" src="assets/provs_robot.webp"
+                            alt="Our robot going into Alberta Provincials" width="700px" height="700px">
+                        <figcaption>Take a peek at our final robot!</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div id="content-c" class="rail-block">
+                <div class="rail-box">
+                    <h2 class="rail-title">Better Tester</h2>
+                    <p>This was a program I made using the on board touch screen to control motors. It
+                        was meant
+                        as
+                        an upgrade to the included testing software which count only control one motor
+                        at a
+                        time. It
+                        was a really neat project which allowed me to get into OOP with classes and
+                        learn how
+                        displays work. Now I'm looking into OpenGL other GUI libraries.
+                    </p>
+                    <img class="boxed-pictures" src="assets/better_tester.webp"
+                        alt="Screen divided into 8 boxes with numbers for motors" width="700px" height="530px">
+                </div>
+            </div>
+            <div id="content-d" class="rail-block">
+                <div class="rail-box">
+                    <h2 class="rail-title">Slime Game</h2>
+                    <p>A buggy project I made in grade 9 as a CALM project. Made using pygame as a desktop
+                        application. I since ported it to itch, with a couple improvements. It's nice to look back
+                        and see how much I've progressed as a programmer.
+                    </p>
+                    <a href="https://u-lan.itch.io" target="_blank" rel="noopener noreferrer">itch.io link</a>
+
+
+                    <figure>
+                        <img class="boxed-pictures" src="assets/slime.webp" alt="Buggy Slime Game" width="700px"
+                            height="530px">
+                        <figcaption>So many bugs in this.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!-- YIPPEE 
+Adding fun features  
+standardize formatting between previous work and projects
+-->
