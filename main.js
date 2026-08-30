@@ -1,22 +1,15 @@
+
+
 document.addEventListener('DOMContentLoaded', () => {
-  const boxes = document.querySelectorAll('.boxed');
-  boxes.forEach(box => {
-    const header = box.querySelector('.boxed-title');
 
-    boxes.forEach(box => {
-      box.addEventListener('mouseenter', () => {
-        boxes.forEach(b => b.classList.remove('opened'));
-        box.classList.add('opened');
-      });
-    });
+  const toggle = document.getElementById('theme-toggle');
+  const root = document.documentElement;
 
-    box.querySelector('.boxed-title')?.addEventListener('click', () => {
-      const isOpen = box.classList.contains('opened');
-      boxes.forEach(b => b.classList.remove('opened'));
-      if (!isOpen) {
-        box.classList.add('opened');
-      }
-    });
+  toggle.addEventListener('click', () => {
+    const current = root.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
   });
 
   const railItems = document.querySelectorAll('.rail-item');
